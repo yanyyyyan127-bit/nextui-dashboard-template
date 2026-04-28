@@ -1,13 +1,11 @@
 import { Card, CardBody } from "@nextui-org/react";
 import React from "react";
-import { Community } from "../icons/community";
 
 export const CardBalance1 = () => {
   return (
     <Card className="xl:max-w-sm bg-primary rounded-xl shadow-md px-3 w-full">
       <CardBody className="py-5 overflow-hidden">
         <div className="flex gap-2.5">
-          <Community />
           <div className="flex flex-col">
             <span className="text-white">每日销售总额</span>
             <span className="text-white text-xs">Today Revenue</span>
@@ -20,7 +18,6 @@ export const CardBalance1 = () => {
         <div className="flex items-center gap-6">
           <div>
             <div>
-              <span className="font-semibold text-success text-xs">{"↓"}</span>
               <span className="text-xs text-white">128</span>
             </div>
             <span className="text-white text-xs">订单数</span>
@@ -28,7 +25,6 @@ export const CardBalance1 = () => {
 
           <div>
             <div>
-              <span className="font-semibold text-warning text-xs">{"⭐"}</span>
               <span className="text-xs text-white">4.8</span>
             </div>
             <span className="text-white text-xs">评分</span>
@@ -36,7 +32,6 @@ export const CardBalance1 = () => {
 
           <div>
             <div>
-              <span className="font-semibold text-info text-xs">{"👥"}</span>
               <span className="text-xs text-white">342</span>
             </div>
             <span className="text-white text-xs">人次</span>
