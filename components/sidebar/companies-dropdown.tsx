@@ -19,8 +19,8 @@ interface Company {
 
 export const CompaniesDropdown = () => {
   const [company, setCompany] = useState<Company>({
-    name: "Acme Co.",
-    location: "Palo Alto, CA",
+    name: "美味楼",
+    location: "北京市朝阳区",
     logo: <AcmeIcon />,
   });
   return (
@@ -47,79 +47,79 @@ export const CompaniesDropdown = () => {
         onAction={(e) => {
           if (e === "1") {
             setCompany({
-              name: "Facebook",
-              location: "San Fransico, CA",
+              name: "顶级美食",
+              location: "上海市浦东新区",
               logo: <AcmeIcon />,
             });
           }
           if (e === "2") {
             setCompany({
-              name: "Instagram",
-              location: "Austin, Tx",
+              name: "金牌酒楼",
+              location: "广州市天河区",
               logo: <AcmeLogo />,
             });
           }
           if (e === "3") {
             setCompany({
-              name: "Twitter",
-              location: "Brooklyn, NY",
+              name: "家常菜馆",
+              location: "成都市武侯区",
               logo: <AcmeIcon />,
             });
           }
           if (e === "4") {
             setCompany({
-              name: "Acme Co.",
-              location: "Palo Alto, CA",
+              name: "美味楼",
+              location: "北京市朝阳区",
               logo: <AcmeIcon />,
             });
           }
         }}
         aria-label="Avatar Actions"
       >
-        <DropdownSection title="Companies">
+        <DropdownSection title="餐厅分店">
           <DropdownItem
             key="1"
             startContent={<AcmeIcon />}
-            description="San Fransico, CA"
+            description="上海市浦东新区"
             classNames={{
               base: "py-4",
               title: "text-base font-semibold",
             }}
           >
-            Facebook
+            顶级美食
           </DropdownItem>
           <DropdownItem
             key="2"
             startContent={<AcmeLogo />}
-            description="Austin, Tx"
+            description="广州市天河区"
             classNames={{
               base: "py-4",
               title: "text-base font-semibold",
             }}
           >
-            Instagram
+            金牌酒楼
           </DropdownItem>
           <DropdownItem
             key="3"
             startContent={<AcmeIcon />}
-            description="Brooklyn, NY"
+            description="成都市武侯区"
             classNames={{
               base: "py-4",
               title: "text-base font-semibold",
             }}
           >
-            Twitter
+            家常菜馆
           </DropdownItem>
           <DropdownItem
             key="4"
             startContent={<AcmeIcon />}
-            description="Palo Alto, CA"
+            description="北京市朝阳区"
             classNames={{
               base: "py-4",
               title: "text-base font-semibold",
             }}
           >
-            Acme Co.
+            美味楼
           </DropdownItem>
         </DropdownSection>
       </DropdownMenu>

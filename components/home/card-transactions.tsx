@@ -3,34 +3,34 @@ import React from "react";
 
 const items = [
   {
-    name: "Jose Perez",
+    name: "宫保鸡丁",
     picture: "https://i.pravatar.cc/150?u=a042581f4e29026024d",
-    amount: "4500 USD",
-    date: "9/20/2021",
+    amount: "45份",
+    date: "¥1260",
   },
   {
-    name: "Jose Perez",
+    name: "红油豆腐",
     picture: "https://i.pravatar.cc/150?u=a042581f4e29026024d",
-    amount: "4500 USD",
-    date: "9/20/2021",
+    amount: "38份",
+    date: "¥950",
   },
   {
-    name: "Jose Perez",
+    name: "水煮鱼",
     picture: "https://i.pravatar.cc/150?u=a042581f4e29026024d",
-    amount: "4500 USD",
-    date: "9/20/2021",
+    amount: "35份",
+    date: "¥1225",
   },
   {
-    name: "Jose Perez",
+    name: "青椒肉丝",
     picture: "https://i.pravatar.cc/150?u=a042581f4e29026024d",
-    amount: "4500 USD",
-    date: "9/20/2021",
+    amount: "32份",
+    date: "¥960",
   },
   {
-    name: "Jose Perez",
+    name: "土豆咖喱鸡",
     picture: "https://i.pravatar.cc/150?u=a042581f4e29026024d",
-    amount: "4500 USD",
-    date: "9/20/2021",
+    amount: "28份",
+    date: "¥840",
   },
 ];
 
@@ -41,7 +41,7 @@ export const CardTransactions = () => {
         <div className="flex gap-2.5 justify-center">
           <div className="flex flex-col border-dashed border-2 border-divider py-2 px-6 rounded-xl">
             <span className="text-default-900 text-xl font-semibold">
-              Latest Transactions
+              菜品销售排名
             </span>
           </div>
         </div>

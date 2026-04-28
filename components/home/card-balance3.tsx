@@ -9,37 +9,37 @@ export const CardBalance3 = () => {
         <div className="flex gap-2.5">
           <Community />
           <div className="flex flex-col">
-            <span className="text-white">Card Insurance</span>
-            <span className="text-white text-xs">1311 Cars</span>
+            <span className="text-white">最热菜品</span>
+            <span className="text-white text-xs">Top Dish</span>
           </div>
         </div>
         <div className="flex gap-2.5 py-2 items-center">
-          <span className="text-white text-xl font-semibold">$3,910</span>
-          <span className="text-danger text-xs">- 4.5%</span>
+          <span className="text-white text-xl font-semibold">宫保鸡丁</span>
+          <span className="text-warning text-xs">🔥热销</span>
         </div>
         <div className="flex items-center gap-6">
           <div>
             <div>
-              <span className="font-semibold text-danger text-xs">{"↓"}</span>
-              <span className="text-xs">100,930</span>
+              <span className="font-semibold text-success text-xs">{"📊"}</span>
+              <span className="text-xs text-white">45</span>
             </div>
-            <span className="text-white text-xs">USD</span>
+            <span className="text-white text-xs">销售量</span>
           </div>
 
           <div>
             <div>
-              <span className="font-semibold text-danger text-xs">{"↑"}</span>
-              <span className="text-xs">4,120</span>
+              <span className="font-semibold text-warning text-xs">{"⭐"}</span>
+              <span className="text-xs text-white">4.9</span>
             </div>
-            <span className="text-white text-xs">USD</span>
+            <span className="text-white text-xs">评分</span>
           </div>
 
           <div>
             <div>
-              <span className="font-semibold text-danger text-xs">{"⭐"}</span>
-              <span className="text-xs">125</span>
+              <span className="font-semibold text-info text-xs">{"💰"}</span>
+              <span className="text-xs text-white">¥28</span>
             </div>
-            <span className="text-white text-xs">VIP</span>
+            <span className="text-white text-xs">单价</span>
           </div>
         </div>
       </CardBody>

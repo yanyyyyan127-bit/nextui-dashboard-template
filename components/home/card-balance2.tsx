@@ -9,15 +9,15 @@ export const CardBalance2 = () => {
         <div className="flex gap-2.5">
           <Community />
           <div className="flex flex-col">
-            <span className="text-default-900">Health Insurance</span>
-            <span className="text-default-900 text-xs">+2400 People</span>
+            <span className="text-default-900">今日订单数</span>
+            <span className="text-default-900 text-xs">Today Orders</span>
           </div>
         </div>
         <div className="flex gap-2.5 py-2 items-center">
           <span className="text-default-900 text-xl font-semibold">
-            $12,138
+            128
           </span>
-          <span className="text-danger text-xs">- 4.5%</span>
+          <span className="text-success text-xs">+ 8.2%</span>
         </div>
         <div className="flex items-center gap-6">
           <div>
@@ -25,25 +25,25 @@ export const CardBalance2 = () => {
               <span className="font-semibold text-success-600 text-xs">
                 {"↓"}
               </span>
-              <span className="text-xs">11,930</span>
+              <span className="text-xs">92</span>
             </div>
-            <span className="text-default-900 text-xs">USD</span>
+            <span className="text-default-900 text-xs">已完成</span>
           </div>
 
           <div>
             <div>
-              <span className="font-semibold text-danger text-xs">{"↑"}</span>
-              <span className="text-xs">54,120</span>
+              <span className="font-semibold text-warning text-xs">{"⏱"}</span>
+              <span className="text-xs">28</span>
             </div>
-            <span className="text-default-900 text-xs">USD</span>
+            <span className="text-default-900 text-xs">进行中</span>
           </div>
 
           <div>
             <div>
-              <span className="font-semibold text-danger text-xs">{"⭐"}</span>
-              <span className="text-xs">150</span>
+              <span className="font-semibold text-danger text-xs">{"❌"}</span>
+              <span className="text-xs">8</span>
             </div>
-            <span className="text-default-900 text-xs">VIP</span>
+            <span className="text-default-900 text-xs">取消</span>
           </div>
         </div>
       </CardBody>

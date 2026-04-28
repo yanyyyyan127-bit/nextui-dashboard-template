@@ -45,54 +45,54 @@ export const SidebarWrapper = () => {
               isActive={pathname === "/"}
               href="/"
             />
-            <SidebarMenu title="Main Menu">
+            <SidebarMenu title="主菜单">
               <SidebarItem
                 isActive={pathname === "/accounts"}
-                title="Accounts"
+                title="员工管理"
                 icon={<AccountsIcon />}
                 href="accounts"
               />
               <SidebarItem
                 isActive={pathname === "/payments"}
-                title="Payments"
+                title="订单管理"
                 icon={<PaymentsIcon />}
               />
               <CollapseItems
                 icon={<BalanceIcon />}
-                items={["Banks Accounts", "Credit Cards", "Loans"]}
-                title="Balances"
+                items={["本周统计", "本月统计", "累计统计"]}
+                title="销售数据"
               />
               <SidebarItem
                 isActive={pathname === "/customers"}
-                title="Customers"
+                title="客户评价"
                 icon={<CustomersIcon />}
               />
               <SidebarItem
                 isActive={pathname === "/products"}
-                title="Products"
+                title="菜品管理"
                 icon={<ProductsIcon />}
               />
               <SidebarItem
                 isActive={pathname === "/reports"}
-                title="Reports"
+                title="财务报表"
                 icon={<ReportsIcon />}
               />
             </SidebarMenu>
 
-            <SidebarMenu title="General">
+            <SidebarMenu title="管理">
               <SidebarItem
                 isActive={pathname === "/developers"}
-                title="Developers"
+                title="系统设置"
                 icon={<DevIcon />}
               />
               <SidebarItem
                 isActive={pathname === "/view"}
-                title="View Test Data"
+                title="数据统计"
                 icon={<ViewIcon />}
               />
               <SidebarItem
                 isActive={pathname === "/settings"}
-                title="Settings"
+                title="系统配置"
                 icon={<SettingsIcon />}
               />
             </SidebarMenu>
